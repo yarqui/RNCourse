@@ -22,6 +22,7 @@ export default function App() {
           style={styles.textInput}
           placeholder="Your course goal!"
           onChangeText={goalInputHandler}
+          textAlign="center"
         />
         <Button title="Add goal" onPress={addGoalHandler} />
       </View>
